@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (potentially large)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/annotations/*
+!data/annotations/.gitkeep
+
+# Model files and outputs (large)
+outputs/checkpoints/*
+!outputs/checkpoints/.gitkeep
+outputs/final_model/*
+!outputs/final_model/.gitkeep
+outputs/logs/*
+!outputs/logs/.gitkeep
+
+# Weights and models
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.model
+
+# Logs and temporary files
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+
+# Colab specific
+.colab_env
+
+# Weights & Biases
+wandb/
+
+# Cache directories
+.cache/
+*.cache
+
+# Authentication tokens (security)
+token.txt
+hf_token.txt
+.huggingface/
