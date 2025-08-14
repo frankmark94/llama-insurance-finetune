@@ -1,0 +1,48 @@
+[
+  {
+    "id": "qa_001",
+    "type": "auto_contract_qa",
+    "context": "AUTO INSURANCE POLICY - SECTION 4: COLLISION COVERAGE\n\nWe will pay for direct and accidental loss to your covered auto caused by collision with another object or by upset of your covered auto. We will pay the lesser of: (1) actual cash value of the damaged property minus applicable deductible, or (2) amount necessary to repair or replace the property minus applicable deductible.\n\nYour collision deductible is $500 per occurrence as shown in the Declarations page. Collision coverage applies only if you have purchased this coverage, as indicated in your policy declarations.\n\nThis coverage does not apply to: damage due to wear and tear, freezing, mechanical breakdown, or damage to tires unless caused by the collision of your covered auto.",
+    "questions": [
+      {
+        "question": "What is my collision deductible?",
+        "answer": "Your collision deductible is $500 per occurrence.",
+        "instruction": "Answer the question based on the insurance contract information provided.",
+        "input": "Context: AUTO INSURANCE POLICY - SECTION 4: COLLISION COVERAGE...\n\nQuestion: What is my collision deductible?",
+        "output": "Your collision deductible is $500 per occurrence.",
+        "task_type": "CONTRACT_QA"
+      },
+      {
+        "question": "Does collision coverage pay for mechanical breakdown?", 
+        "answer": "No, collision coverage does not apply to mechanical breakdown damage.",
+        "instruction": "Answer the question based on the insurance contract information provided.",
+        "input": "Context: AUTO INSURANCE POLICY - SECTION 4: COLLISION COVERAGE...\n\nQuestion: Does collision coverage pay for mechanical breakdown?",
+        "output": "No, collision coverage does not apply to mechanical breakdown damage.",
+        "task_type": "CONTRACT_QA"
+      }
+    ]
+  },
+  {
+    "id": "qa_002", 
+    "type": "health_contract_qa",
+    "context": "HEALTH INSURANCE POLICY - PRESCRIPTION DRUG BENEFITS\n\nPrescription drug coverage is provided through our pharmacy benefit manager. You pay the following amounts for covered prescription drugs:\n\n- Generic drugs: $10 copayment per 30-day supply\n- Brand name drugs (preferred): $30 copayment per 30-day supply  \n- Brand name drugs (non-preferred): $50 copayment per 30-day supply\n- Specialty drugs: $100 copayment per 30-day supply\n\nMail order pharmacy is available for maintenance medications with 90-day supplies at 2x the copayment amount. Prior authorization may be required for certain medications.\n\nThe annual prescription drug deductible is $200 individual, $400 family, which applies before copayments for brand name and specialty drugs only.",
+    "questions": [
+      {
+        "question": "How much do generic drugs cost?",
+        "answer": "Generic drugs cost $10 copayment per 30-day supply.",
+        "instruction": "Answer the question based on the insurance contract information provided.", 
+        "input": "Context: HEALTH INSURANCE POLICY - PRESCRIPTION DRUG BENEFITS...\n\nQuestion: How much do generic drugs cost?",
+        "output": "Generic drugs cost $10 copayment per 30-day supply.",
+        "task_type": "CONTRACT_QA"
+      },
+      {
+        "question": "Is there a prescription drug deductible?",
+        "answer": "Yes, there is an annual prescription drug deductible of $200 individual, $400 family, which applies to brand name and specialty drugs only.",
+        "instruction": "Answer the question based on the insurance contract information provided.",
+        "input": "Context: HEALTH INSURANCE POLICY - PRESCRIPTION DRUG BENEFITS...\n\nQuestion: Is there a prescription drug deductible?", 
+        "output": "Yes, there is an annual prescription drug deductible of $200 individual, $400 family, which applies to brand name and specialty drugs only.",
+        "task_type": "CONTRACT_QA"
+      }
+    ]
+  }
+]

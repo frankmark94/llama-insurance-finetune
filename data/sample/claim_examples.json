@@ -1,0 +1,42 @@
+[
+  {
+    "id": "claim_001",
+    "type": "auto_claim",
+    "content": "Vehicle collision occurred on Highway 101 at approximately 2:30 PM. Insured vehicle rear-ended by another driver while stopped at traffic light. Front bumper damage to insured vehicle, airbags did not deploy. No injuries reported. Police report filed, report number #2024-00123. Towing service contacted for vehicle removal. Other driver cited for following too closely.",
+    "instruction": "Classify this insurance claim into the appropriate category.",
+    "output": "This is an auto claim involving a rear-end collision with property damage and no injuries.",
+    "task_type": "CLAIM_CLASSIFICATION"
+  },
+  {
+    "id": "claim_002", 
+    "type": "health_claim",
+    "content": "Patient presented to emergency department with acute chest pain and shortness of breath. EKG performed showing normal sinus rhythm. Chest X-ray and blood work including cardiac enzymes completed. Diagnosis: anxiety-induced chest pain, not cardiac event. Patient discharged with anxiety management recommendations and follow-up with primary care physician scheduled.",
+    "instruction": "Classify this insurance claim into the appropriate category.",
+    "output": "This is a health claim for emergency department treatment of anxiety-related symptoms.",
+    "task_type": "CLAIM_CLASSIFICATION"
+  },
+  {
+    "id": "claim_003",
+    "type": "property_claim", 
+    "content": "Water damage to kitchen area due to burst water pipe behind refrigerator. Hardwood flooring extensively damaged and requires replacement. Kitchen cabinets show water staining and warping. Plumber contacted for emergency repair, water shut off to prevent further damage. Restoration company assessment scheduled for tomorrow. No structural damage to walls or ceiling observed.",
+    "instruction": "Classify this insurance claim into the appropriate category.",
+    "output": "This is a property claim for water damage requiring flooring and cabinet repairs.",
+    "task_type": "CLAIM_CLASSIFICATION"
+  },
+  {
+    "id": "claim_004",
+    "type": "life_claim",
+    "content": "Policyholder passed away on March 15, 2024, due to natural causes after prolonged illness. Death certificate issued by attending physician. Beneficiary has submitted claim for death benefit payout. All policy premiums current, no outstanding liens or assignments. Policy effective date January 1, 2020, well beyond contestability period.",
+    "instruction": "Classify this insurance claim into the appropriate category.", 
+    "output": "This is a life insurance claim for death benefit payout due to natural causes.",
+    "task_type": "CLAIM_CLASSIFICATION"
+  },
+  {
+    "id": "claim_005",
+    "type": "workers_comp_claim",
+    "content": "Employee injured while lifting boxes in warehouse. Reported lower back strain and pain. Incident occurred during normal work duties on company premises. Employee immediately reported injury to supervisor and completed incident report. Medical attention sought same day at company-approved clinic. Temporary work restrictions assigned pending further evaluation.",
+    "instruction": "Classify this insurance claim into the appropriate category.",
+    "output": "This is a workers' compensation claim for work-related back injury during lifting activities.",
+    "task_type": "CLAIM_CLASSIFICATION"
+  }
+]

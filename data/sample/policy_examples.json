@@ -1,0 +1,26 @@
+[
+  {
+    "id": "policy_001",
+    "type": "auto_policy",
+    "content": "COMPREHENSIVE AUTO INSURANCE POLICY\n\nPolicy Number: AUTO-2024-001\nEffective Date: January 1, 2024 - January 1, 2025\n\nCOVERAGE LIMITS:\n- Bodily Injury Liability: $100,000 per person, $300,000 per accident\n- Property Damage Liability: $50,000 per accident  \n- Comprehensive Coverage: Actual Cash Value minus $500 deductible\n- Collision Coverage: Actual Cash Value minus $500 deductible\n- Uninsured Motorist: $100,000 per person, $300,000 per accident\n- Medical Payments: $5,000 per person\n\nPREMIUM: $1,200 annually, payable in monthly installments of $100. Late payment fee of $25 applies after 10-day grace period.\n\nEXCLUSIONS: Racing, commercial use, intentional damage, normal wear and tear, mechanical breakdown, acts of war.\n\nADDITIONAL BENEFITS: 24/7 roadside assistance, rental car coverage up to $30/day for 30 days while vehicle is being repaired, new car replacement if total loss occurs within first model year.",
+    "instruction": "Summarize the key points of this insurance policy in simple terms.",
+    "output": "This auto insurance policy provides comprehensive protection with $100,000/$300,000 bodily injury coverage, $50,000 property damage coverage, and comprehensive/collision coverage with $500 deductibles. The annual premium is $1,200 ($100/month). Key benefits include roadside assistance, rental car coverage up to $30/day, and new car replacement for first-year vehicles. The policy excludes racing, commercial use, and intentional damage.",
+    "task_type": "POLICY_SUMMARIZATION"
+  },
+  {
+    "id": "policy_002",
+    "type": "health_policy", 
+    "content": "HEALTH INSURANCE POLICY - PPO PLAN\n\nPolicy Number: HEALTH-2024-002\nPlan Type: Preferred Provider Organization (PPO)\n\nDEDUCTIBLE AND COINSURANCE:\n- Annual Deductible: $2,000 individual, $4,000 family\n- Coinsurance: 80% in-network, 60% out-of-network (after deductible)\n- Maximum Out-of-Pocket: $8,000 individual, $16,000 family\n\nCOVERED SERVICES:\n- Preventive care: 100% covered (no deductible)\n- Primary care visits: $25 copay\n- Specialist visits: $50 copay  \n- Emergency room: $300 copay (waived if admitted)\n- Urgent care: $75 copay\n\nPRESCRIPTION BENEFITS:\n- Generic drugs: $10 copay\n- Brand name drugs: $30 copay\n- Specialty drugs: $60 copay\n- Mail order available for 90-day supply\n\nPREMIUM: $450 monthly for individual coverage, $1,200 for family coverage.\n\nNETWORK: Nationwide PPO network with over 500,000 providers.",
+    "instruction": "Summarize the key points of this insurance policy in simple terms.",
+    "output": "This PPO health plan has a $2,000 individual deductible with 80% coverage after deductible for in-network care. Preventive care is fully covered, with copays of $25 for primary care and $50 for specialists. Prescription costs are $10 generic, $30 brand name, and $60 specialty. Monthly premium is $450 individual or $1,200 family, with maximum yearly out-of-pocket of $8,000 individual or $16,000 family.",
+    "task_type": "POLICY_SUMMARIZATION"  
+  },
+  {
+    "id": "policy_003",
+    "type": "homeowners_policy",
+    "content": "HOMEOWNERS INSURANCE POLICY\n\nPolicy Number: HOME-2024-003\nProperty Address: 123 Main Street, Anytown, ST 12345\n\nCOVERAGE AMOUNTS:\n- Dwelling (Coverage A): $400,000\n- Other Structures (Coverage B): $40,000 (10% of dwelling)\n- Personal Property (Coverage C): $300,000 (75% of dwelling)  \n- Loss of Use (Coverage D): $80,000 (20% of dwelling)\n- Personal Liability (Coverage E): $300,000\n- Medical Payments (Coverage F): $5,000\n\nDEDUCTIBLE: $1,000 for most perils, $2,500 for wind/hail\n\nCOVERED PERILS: Fire, lightning, windstorm, hail, explosion, riot, aircraft, vehicles, smoke, vandalism, theft, falling objects, weight of ice/snow/sleet.\n\nEXCLUSIONS: Flood, earthquake, war, nuclear hazard, intentional loss, neglect, ordinance or law, power failure.\n\nPREMIUM: $1,800 annually\n\nSPECIAL FEATURES: Replacement cost coverage for dwelling and personal property, identity theft coverage, ordinance or law coverage up to 25% of dwelling limit.",
+    "instruction": "Summarize the key points of this insurance policy in simple terms.", 
+    "output": "This homeowners policy provides $400,000 dwelling coverage with additional protection for other structures ($40,000), personal property ($300,000), and liability ($300,000). It covers common perils like fire, wind, theft, and vandalism, with a $1,000 deductible ($2,500 for wind/hail). The annual premium is $1,800 and includes replacement cost coverage and identity theft protection. Floods and earthquakes are not covered.",
+    "task_type": "POLICY_SUMMARIZATION"
+  }
+]
